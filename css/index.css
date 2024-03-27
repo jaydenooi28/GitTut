@@ -1,0 +1,53 @@
+*{
+    font-weight: bold;
+    
+}
+
+.first {
+    color: red;
+    
+}
+
+.second {
+    color: green;
+}
+
+.three {
+    color: blue;
+}
+
+
+.four {
+    color: purple;
+}
+
+.five{
+    color: blueviolet;
+}
+
+h1 {
+    font: 100px a;
+}
+
+.first, .second {
+    font-style: italic;
+    
+}
+
+
+body main {
+    font-size: 50px ;
+}
+
+.boxLabel{
+    font-size: 100px ;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    margin: 50px;
+    background-color: aqua;
+    border:  solid black;
+}

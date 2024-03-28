@@ -1,13 +1,14 @@
-.html {
+/* .html {
     background-image: url("background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-  }
+} */
 
 *{
     font-weight: bold;
     
 }
+
 
 .first {
     color: red;
@@ -33,6 +34,7 @@
 
 h1 {
     font: 100px a;
+    color: blue;
 }
 
 .first, .second {
@@ -47,6 +49,7 @@ body main {
 
 .boxLabel{
     font-size: 100px ;
+    color: black;
 }
 
 .box {
@@ -57,3 +60,29 @@ body main {
     background-color: aqua;
     border:  solid black;
 }
+
+footer {
+    color: azure;
+}
+
+.pretty {
+    background-color: #3498db; /* Light blue background */
+    color: white; /* White text */
+    padding: 10px 20px; /* Padding for spacing */
+    border-radius: 5px; /* Rounded corners */
+  }
+  
+  .pretty a {
+    text-decoration: none; /* Removes underline */
+    transition: background-color 0.3s ease-in-out; /* Smooth hover effect */
+    margin-right: 20px; /* Spacing between links */
+  }
+  
+  .pretty a:last-child {
+    margin-right: 0; /* Remove margin from the last link */
+  }
+  
+  .pretty a:hover {
+    background-color: #e67e22; /* Orange hover color */
+  }
+  
